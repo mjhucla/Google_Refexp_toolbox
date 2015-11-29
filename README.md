@@ -3,7 +3,7 @@
 This toolbox provide **visualization** and **evaluation** tools for the 
 [Google Refexp dataset](#google_refexp). 
 It also provide a simple script (i.e. *setup.py*) that automatically
-downloads all the necessary data and packages, and *aligns* the Google Refexp
+*downloads* all the necessary data and packages, and *aligns* the Google Refexp
 dataset with the [MS COCO](http://mscoco.org/) dataset.
 
 ## Google Refexp dataset <a name="google_refexp"></a>
@@ -16,6 +16,8 @@ descriptions that allow one to uniquely identify a single object or region
 within an image.
 
 See more details of the collection of the dataset in this paper: [Generation and Comprehension of Unambiguous Object Descriptions](http://arxiv.org/abs/1511.02283)
+
+The dataset can be downloaded by running *setup.py*.
 
 ## Requirements
 - python 2.7 (Need numpy, scipy, matlabplot, PIL packages. All included in 
@@ -31,11 +33,12 @@ See more details of the collection of the dataset in this paper: [Generation and
   ```
   
 Running the setup.py script will do the following five things:
-1. Download Google Refexp Data
-2. Download and compile the COCO toolbox
-3. Download COCO annotations
-4. Download COCO images
-5. Align the Google Refexp Data with COCO annotations
+
+1.  Download Google Refexp Data
+2.  Download and compile the COCO toolbox
+3.  Download COCO annotations
+4.  Download COCO images
+5.  Align the Google Refexp Data with COCO annotations
 
 At each step you will be prompted by keyboard whether or not you would like to 
 skip a step.
@@ -45,8 +48,7 @@ it takes some time to download all of them.
 ### Manual downloading and setup (proficient users of MS COCO only)
 
 If you have already played with MS COCO and do not want to have two copies of 
-them, you can choose to create a symbolic link from external to your COCO  
-toolkit. E.g. 
+them, you can choose to create a symbolic link from external to your COCO toolkit. E.g.:
 
   ```
   cd $YOUR_PATH_TO_THIS_TOOLBOX
@@ -57,7 +59,7 @@ Please make sure that the algorithm can find the compiled PythonAPI at
 ./external/coco/PythonAPI, the annotation file at 
 ./external/coco/annotations/instances_train2014.json, and the COCO images at 
 ./external/coco/images/train2014/. You can create symbolic links if you have 
-already downloaded the data and compiled the coco toolbox.
+already downloaded the data and compiled the COCO toolbox.
 
 Then run *setup.py* to download the Google Refexp data and compile this toolbox. 
 You can skip steps 2, 3, 4.
