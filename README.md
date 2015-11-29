@@ -4,7 +4,7 @@ This toolbox provide **visualization** and **evaluation** tools for the
 [Google Refexp dataset](#google_refexp). 
 It also provide a simple script (i.e. *setup.py*) that automatically
 downloads all the necessary data and packages, and *aligns* the Google Refexp
-dataset with the [MS COCO] dataset.
+dataset with the [MS COCO]](http://mscoco.org/) dataset.
 
 ## Google Refexp dataset <a name="google_refexp"></a>
 
@@ -64,11 +64,11 @@ You can skip steps 2, 3, 4.
 
 ## Demos
 
-For visualization and utility functions, please see 
-**google_refexp_dataset_demo.ipynb**.
+For **visualization** and **utility** functions, please see 
+*google_refexp_dataset_demo.ipynb*.
 
-For automatic and Amazon Mechanical Turk (AMT) evaluation of the comprehension 
-and generation tasks, please see **google_refexp_eval_demo.ipynb**; The 
+For automatic and Amazon Mechanical Turk (AMT) **evaluation** of the comprehension 
+and generation tasks, please see *google_refexp_eval_demo.ipynb*; The 
 appropriate output format for a comprehension/generation algorithm is described 
 in ./evaluation/format_comprehension_eval.md and 
 ./evaluation/format_generation_eval.md
@@ -100,4 +100,4 @@ please consider citing:
     
 ## Toolbox Developers
 
-[Junhua Mao](mjhustc@ucla.edu) and [Oana Camburu](oana-maria.camburu@cs.ox.ac.uk)
+[Junhua Mao](www.stat.ucla.edu/~junhua.mao/) and [Oana Camburu](https://www.cs.ox.ac.uk/people/oana-maria.camburu/)
