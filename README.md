@@ -98,6 +98,11 @@ please consider citing:
       year={2015}
     }
     
+## License
+
+This data is released by Google under the following license:
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+    
 ## Toolbox Developers
 
 [Junhua Mao](https://www.stat.ucla.edu/~junhua.mao/) and [Oana Camburu](https://www.cs.ox.ac.uk/people/oana-maria.camburu/)
