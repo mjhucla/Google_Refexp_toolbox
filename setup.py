@@ -24,9 +24,13 @@ logger.setLevel(logging.INFO)
 while True:
   ch = raw_input('Do you want to download Google Refexp Datset? (Y/N)')
   if ch == 'Y':
-    os.system('wget https://storage.googleapis.com/refexp/google_refexp_dataset_release.zip')
-    os.system('unzip google_refexp_dataset_release.zip')
-    os.system('rm -f google_refexp_dataset_release.zip')
+    os.system('mkdir google_refexp_dataset_release')
+    os.system('cd google_refexp_dataset_release && '
+              'wget https://storage.googleapis.com/refexp/google_refexp_dataset_release.zip')
+    os.system('cd google_refexp_dataset_release && '
+              'unzip google_refexp_dataset_release.zip')
+    os.system('cd google_refexp_dataset_release && '
+              'rm -f google_refexp_dataset_release.zip')
     print 'Google Refexp Dataset is now available at ./google_refexp_dataset_release'
   if ch == 'Y' or ch == 'N':
     break
