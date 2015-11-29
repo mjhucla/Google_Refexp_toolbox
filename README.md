@@ -4,7 +4,7 @@ This toolbox provide **visualization** and **evaluation** tools for the
 [Google Refexp dataset](#google_refexp). 
 It also provide a simple script (i.e. *setup.py*) that automatically
 downloads all the necessary data and packages, and *aligns* the Google Refexp
-dataset with the [MS COCO]](http://mscoco.org/) dataset.
+dataset with the [MS COCO](http://mscoco.org/) dataset.
 
 ## Google Refexp dataset <a name="google_refexp"></a>
 
