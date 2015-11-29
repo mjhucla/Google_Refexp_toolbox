@@ -8,6 +8,35 @@ dataset with the [MS COCO](http://mscoco.org/) dataset.
 
 ## Google Refexp dataset <a name="google_refexp"></a>
 
+<table width="100%">
+  <tr>
+    <td  align="center"><img src="http://www.stat.ucla.edu/~junhua.mao/projects/obj_descrip_folder/sample_images/pic_001.jpg" alt="Mountain View" width="95%"></td>
+    <td  align="center"><img src="http://www.stat.ucla.edu/~junhua.mao/projects/obj_descrip_folder/sample_images/pic_002.jpg" alt="Mountain View" width="95%" align="center"></td>
+    <td  align="center"><img src="http://www.stat.ucla.edu/~junhua.mao/projects/obj_descrip_folder/sample_images/pic_003.jpg" alt="Mountain View" width="95%" align="center"></td>
+  </tr>
+  
+  <tr>
+    <td valign="top">
+      <ul>
+      <li>A girl wearing glasses and a pink shirt.</li>
+      <li>An Asian girl with a pink shirt eating at the table.</li>
+      </ul>
+    </td>
+    <td valign="top">
+      <ul>
+      <li>A boy brushing his hair while looking at his reflection.<br></li>
+      <li>A young male child in pajamas shaking around a hairbrush in the mirror.</li>
+      </ul>
+    </td>
+    <td valign="top">
+      <ul>
+      <li>Zebra looking towards the camera.<br></li>
+      <li>A zebra third from the left.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
 The Google RefExp dataset is a collection of text descriptions of objects in 
 images which builds on the publicly available [MS-COCO](http://mscoco.org/) 
 dataset. Where the image captions in MS-COCO apply to the entire image, this 
@@ -17,7 +46,9 @@ within an image.
 
 See more details of the collection of the dataset in this paper: [Generation and Comprehension of Unambiguous Object Descriptions](http://arxiv.org/abs/1511.02283)
 
-The dataset can be downloaded by running *setup.py*.
+The dataset can be downloaded by running *setup.py* (recommended) or 
+download directly from this 
+[link](https://storage.googleapis.com/refexp/google_refexp_dataset_release.zip).
 
 ## Requirements
 - python 2.7 (Need numpy, scipy, matlabplot, PIL packages. All included in 
