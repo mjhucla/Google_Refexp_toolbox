@@ -1,0 +1,144 @@
+<!-- Bootstrap v3.0.3 -->
+
+<!-- This AMT template interface is used to evaluate the quality of the generated referring
+expression compared to humans' annotation (see [1] for more details).
+
+If you find it is useful for your research, please consider citing:
+
+[1]. Junhua Mao, Jonathan Huang, Alexander Toshev, Oana Camburu, Alan Yuille, and 
+Kevin Murphy. "Generation and Comprehension of Unambiguous Object Descriptions." 
+arXiv preprint arXiv:1511.02283 (2015).
+-->
+
+<link href="https://s3.amazonaws.com/mturk-public/bs30/css/bootstrap.min.css" rel="stylesheet" />
+<section class="container" id="TaggingOfAnImage" style="margin-bottom:15px; padding: 10px 10px; font-family: Verdana, Geneva, sans-serif; color:#333333; font-size:0.9em;">
+<div class="row col-xs-12 col-md-12"><!-- Instructions -->
+<div class="panel panel-primary">
+<div class="panel-heading"><strong>Instructions</strong></div>
+
+<div class="panel-body">
+<p>You are given 5 pairs of images (original image and the highlighted object) and two sentences for each pair.&nbsp;Select the more <strong>discriminative </strong>sentence that would allow someone to more easily identify the highlighted object in the image. If they are all good, choose &quot;Similar&quot;.</p>
+
+<ul>
+	<li>A good discriminative sentence should provide enough information for you to identify the highlighted object.</li>
+	<li><span style="font-family: Verdana, Geneva, sans-serif; font-size: 11.7px; line-height: 20.8px;">Whether a sentence is good or not depends only on the <strong>accuracy </strong>of the sentence and whether you can <strong>identify </strong>the highlighted object, <strong>NOT its length</strong>.</span></li>
+	<li><u>We will check your annotations afterwards&nbsp;and reject the ones that violate any of the instructions.</u></li>
+</ul>
+
+<table>
+	<tbody>
+		<tr>
+			<th><img alt="example" src="http://www.stat.ucla.edu/~junhua.mao/Aturk_anno/Aturk_second_speaker_round.jpg" style="width:500px; height:auto" /></th>
+			<th>
+			<h4>Examples1:</h4>
+
+			<p><span style="font-family: Verdana, Geneva, sans-serif; font-size: 11.7px; line-height: 20.8px;">(A). &quot;A man wearing a blue sweater whose hand is touching his head.&quot;<br />
+			(B). &quot;A man in blue.&quot;<br />
+			(C). Similar<br />
+			In this case, (A) is preferred because it is more precise than (B), as there are two men wearing blue.</span></p>
+
+			<h4>Examples2:</h4>
+
+			<p><span style="font-family: Verdana, Geneva, sans-serif; font-size: 11.7px; line-height: 20.8px;">(A). &quot;A man wearing a blue sweater whose hand is touching his head.&quot;<br />
+			(B). &quot;A man in a blue sweater.&quot;<br />
+			(C). Similar<br />
+			In this case, (C) is preferred since both (A) and (B) are sufficiently discriminative to identify the highlighted object.</span></p>
+			</th>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+
+<div class="panel panel-primary">
+<div class="panel-heading"><strong>Choose the more discriminative sentence for the five image pairs below.</strong></div>
+
+<div class="panel-body">
+<fieldset>
+<div><img alt="image_url" class="imagecontainer" src="${image_url_o_0}" style="width:500px; height:auto" /></div>
+
+<div><img alt="image_url" class="imagecontainer" src="${image_url_mask_0}" style="width:500px; height:auto" /></div>
+</fieldset>
+
+<fieldset>
+<div class="radio"><label><input name="choice_0" type="radio" value="${descrip_type_0_0}" />${descrip_0_0} </label></div>
+
+<div class="radio"><label><input name="choice_0" type="radio" value="${descrip_type_0_1}" />${descrip_0_1} </label></div>
+
+<div class="radio"><label><input name="choice_0" type="radio" value="similar" />Similar</label></div>
+</fieldset>
+
+<fieldset>
+<div><img alt="image_url" class="imagecontainer" src="${image_url_o_1}" style="width:500px; height:auto" /></div>
+
+<div><img alt="image_url" class="imagecontainer" src="${image_url_mask_1}" style="width:500px; height:auto" /></div>
+</fieldset>
+
+<fieldset>
+<div class="radio"><label><input name="choice_1" type="radio" value="${descrip_type_1_0}" />${descrip_1_0} </label></div>
+
+<div class="radio"><label><input name="choice_1" type="radio" value="${descrip_type_1_1}" />${descrip_1_1} </label></div>
+
+<div class="radio"><label><input name="choice_1" type="radio" value="similar" />Similar</label></div>
+</fieldset>
+
+<fieldset>
+<div><img alt="image_url" class="imagecontainer" src="${image_url_o_2}" style="width:500px; height:auto" /></div>
+
+<div><img alt="image_url" class="imagecontainer" src="${image_url_mask_2}" style="width:500px; height:auto" /></div>
+</fieldset>
+
+<fieldset>
+<div class="radio"><label><input name="choice_2" type="radio" value="${descrip_type_2_0}" />${descrip_2_0} </label></div>
+
+<div class="radio"><label><input name="choice_2" type="radio" value="${descrip_type_2_1}" />${descrip_2_1} </label></div>
+
+<div class="radio"><label><input name="choice_2" type="radio" value="similar" />Similar</label></div>
+</fieldset>
+
+<fieldset>
+<div><img alt="image_url" class="imagecontainer" src="${image_url_o_3}" style="width:500px; height:auto" /></div>
+
+<div><img alt="image_url" class="imagecontainer" src="${image_url_mask_3}" style="width:500px; height:auto" /></div>
+</fieldset>
+
+<fieldset>
+<div class="radio"><label><input name="choice_3" type="radio" value="${descrip_type_3_0}" />${descrip_3_0} </label></div>
+
+<div class="radio"><label><input name="choice_3" type="radio" value="${descrip_type_3_1}" />${descrip_3_1} </label></div>
+
+<div class="radio"><label><input name="choice_3" type="radio" value="similar" />Similar</label></div>
+</fieldset>
+
+<fieldset>
+<div><img alt="image_url" class="imagecontainer" src="${image_url_o_4}" style="width:500px; height:auto" /></div>
+
+<div><img alt="image_url" class="imagecontainer" src="${image_url_mask_4}" style="width:500px; height:auto" /></div>
+</fieldset>
+
+<fieldset>
+<div class="radio"><label><input name="choice_4" type="radio" value="${descrip_type_4_0}" />${descrip_4_0} </label></div>
+
+<div class="radio"><label><input name="choice_4" type="radio" value="${descrip_type_4_1}" />${descrip_4_1} </label></div>
+
+<div class="radio"><label><input name="choice_4" type="radio" value="similar" />Similar</label></div>
+</fieldset>
+</div>
+<style type="text/css">.imagecontainer {
+    display:block;
+    float: left;
+    position: relative;
+    border:1px solid #fbfbfb;
+    margin:0px 15px 15px 0px;
+    height:200px;
+    width:auto;
+}
+.tagfields {
+    display:block;
+    float:left;
+}
+</style>
+</div>
+</div>
+</section>
+
