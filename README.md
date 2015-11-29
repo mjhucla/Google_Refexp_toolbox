@@ -100,4 +100,4 @@ please consider citing:
     
 ## Toolbox Developers
 
-[Junhua Mao](www.stat.ucla.edu/~junhua.mao/) and [Oana Camburu](https://www.cs.ox.ac.uk/people/oana-maria.camburu/)
+[Junhua Mao](https://www.stat.ucla.edu/~junhua.mao/) and [Oana Camburu](https://www.cs.ox.ac.uk/people/oana-maria.camburu/)
