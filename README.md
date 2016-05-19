@@ -130,11 +130,11 @@ reasonable results.
 If you find the dataset and toolbox useful in your research, 
 please consider citing:
 
-    @article{mao2015generation,
+    @inproceedings{mao2016generation,
       title={Generation and Comprehension of Unambiguous Object Descriptions},
       author={Mao, Junhua and Huang, Jonathan and Toshev, Alexander and Camburu, Oana and Yuille, Alan and Murphy, Kevin},
-      journal={arXiv preprint arXiv:1511.02283},
-      year={2015}
+      booktitle={CVPR},
+      year={2016}
     }
     
 ## License
